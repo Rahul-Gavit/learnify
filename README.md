@@ -5,12 +5,10 @@ click to see the application--> [learnify](https://learrnify.netlify.app/)
 
 # Home Page
 THis is home page of application
-click the get start button
 ![alt text](https://github.com/Rahul-Gavit/learnify/blob/master/client/app_images/home_page.png)
 
 # Select language
-select the language card
-note: Currently english language is working
+select the language card    note: Currently english language is working
 ![alt text](https://github.com/Rahul-Gavit/learnify/blob/master/client/app_images/select_lng.png)
 
 # Select level
