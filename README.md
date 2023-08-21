@@ -1,13 +1,15 @@
 # learnify
 To run the application you need to directly run the index.html file in client folder
-# This application hosted in netlify
-click to see--> [learnify](https://learrnify.netlify.app/)
+# Application Link
+click to see the application--> [learnify](https://learrnify.netlify.app/)
 
 # Home Page
 THis is home page of application
+click the get start button
 ![alt text](https://github.com/Rahul-Gavit/learnify/blob/master/client/app_images/home_page.png)
 
 # Select language
+select the language card
 note: Currently english language is working
 ![alt text](https://github.com/Rahul-Gavit/learnify/blob/master/client/app_images/select_lng.png)
 
