@@ -1,0 +1,94 @@
+/* importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #4d59c2;
+}
+
+.nav-bar{
+    font-size: 1.7rem;
+    padding: 1rem;
+    color: #fff;
+}
+
+   /* ---- home container ----  */
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    color: #fff;
+}
+
+.home-btn1{
+    width: 200px;
+    margin: 10px 0;
+}
+.home-btn2{
+    width: 300px;
+}
+ /* ----- adding responsiveness in home container ----  */
+@media(max-width: 600px){
+    .home-container h2{
+        font-size: 1rem;
+    }
+
+    .home-btn1{
+        width: 150px;
+    }
+    .home-btn2{
+        width: 250px;
+    }
+}
+@media(max-width: 320px){
+    .home-container h2{
+        font-size: 0.7rem;
+    }
+}
+
+  /* ---- home bottom container ----  */
+
+.home-container-bottom{
+    display: flex;
+
+}
+
+hr{
+    background-color: #fff;
+    height: 1px;
+}
+
+.flags-container-main{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.home-container-bottom img{
+    height: 80px;
+    width: 80px;
+    margin: 0 10px;
+}
+
+ /* ----- adding responsiveness in home bottom container ----  */
+@media(max-width: 730px){
+    .home-container-bottom{
+        display: none;
+    }
+    hr{
+        display: none;
+    }
+}
+
